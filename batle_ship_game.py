@@ -347,11 +347,11 @@ def main():
         #checking if palyer has won if yes displays message and game stats:
         if len(ships) == 20:
             print("\nCongratulations You won!")
-            print("\nGame stats:\nYou uesd {0} tries\nYou had {1} hits\nYour hit ratio is {2:.1f}%".format(used_tries, hits, hits/used_tries*100))
+            print("\nGame stats:\nYou used {0} tries\nYou had {1} hits\nYour hit ratio is {2:.1f}%".format(used_tries, hits, hits/used_tries*100))
             break
         #if there are no tries left displays game over message and game stats:
         if tries == 0:
             print("\nGame over!\nThanks for playing!\nSee you soon!")
-            print("\nGame stats:\nYou uesd {0} tries\nYou had {1} hits\nYour hit ratio is {2:.1f}%".format(used_tries, hits, hits/used_tries*100))
+            print("\nGame stats:\nYou used {0} tries\nYou had {1} hits\nYour hit ratio is {2:.1f}%".format(used_tries, hits, hits/used_tries*100))
             
 main()
